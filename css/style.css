@@ -9,7 +9,21 @@
 #information {
   border-top: none;
   border-radius: 0 0 3px 3px;
+  padding-top: 230px;
+  position: relative;
 }
+
+#cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cover img {
+  position: relative;
+  z-index: 1;
+}
+
 
 #name { margin-right: 20px; }
 
@@ -33,11 +47,6 @@
 
 #education h4 {
   margin: 0;
-}
-
-img.cover {
-  position: relative;
-  z-index: 1;
 }
 
 img.profile {
