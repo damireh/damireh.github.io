@@ -5,11 +5,20 @@
 }
 
 .label { font-size: 11px; text-transform: uppercase; }
+h4 { margin: 0; }
+
+.well-inverse {
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 3px ;
+  box-shadow: 1px 2px 3px #CCC;
+  padding: 15px;
+}
 
 #information {
   border-top: none;
   border-radius: 0 0 3px 3px;
-  padding-top: 230px;
+  padding-top: 200px;
   position: relative;
 }
 
@@ -19,34 +28,14 @@
   left: 0;
 }
 
-#cover img {
-  position: relative;
-  z-index: 1;
-}
-
-
 #name { margin-right: 20px; }
-
-#social {
-  margin-top: 10px;
-}
-
-#experience {
-  margin-top: 30px;
-}
-
-#experience h4 {
-  margin: 0;
-}
+#social { margin-top: 10px; }
+#experience { margin-top: 30px; }
 
 #education {
   border-bottom: none;
   border-radius: 3px 3px 0 0;
   margin-top: 30px;
-}
-
-#education h4 {
-  margin: 0;
 }
 
 img.profile {
@@ -57,12 +46,4 @@ img.profile {
   padding: 5px;
   position: relative;
   z-index: 2;
-}
-
-.well-inverse {
-  background: #FFF;
-  border: 1px solid #CCC;
-  border-radius: 3px ;
-  box-shadow: 1px 2px 3px #CCC;
-  padding: 15px;
 }
