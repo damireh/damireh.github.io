@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+main {
+  margin: auto;
+  max-width: 500px;
+  margin-top: -50px;
+  padding: 0 15px 15px;
+  width: 100%;
+}
+
+.jumboji {
+  font-size: 72px;
+}
